@@ -4,7 +4,7 @@
 # in order to complete the rest of this course and be ready for the next course!
 
 def introduction(name)
-  print ""
+  puts `Hi, my name is #{name}.`
 end
 
 def introduction_with_language
